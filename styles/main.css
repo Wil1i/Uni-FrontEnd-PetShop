@@ -1,6 +1,7 @@
 :root{
   --primary: #675BC8;
   --primary-bg: #9990DA;
+  --primary-bg-light: #EAE8F7;
   --primary-dark: #4c4394;
   --primary-light: #e2dffa;
 }
@@ -80,7 +81,6 @@ a{
 }
 
 .header__top{
-  display: flex;
   margin: 0 auto;
   width: 90%;
   display: flex;
@@ -128,4 +128,9 @@ a{
   justify-content: end;
   align-items: center;
   height: 100%;
+}
+
+.m-center{
+  width: 90%;
+  margin: 0 auto;
 }

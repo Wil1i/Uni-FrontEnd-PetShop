@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .landing__left{
@@ -39,3 +40,122 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.products__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.products__container > a{
+  margin-top: 2rem;
+}
+
+.products__container > div{
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.products__container > h1{
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.product__container{
+  border-radius: 20px;
+  border: 1px solid rgb(214, 214, 214);
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__image{
+  position: relative;
+}
+
+.product__container > div > p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+}
+
+.product__container > p::after{
+  content: "...";
+}
+
+.newPet{
+  position: absolute;
+  left: 20px;
+  top: -9px;
+}
+
+.product__image > img:first-child{
+  width: 100%;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+}
+
+.product__title{
+  display: flex;
+  margin:  0.6rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__title > svg{
+  color: gray;
+}
+
+.product__title > p{
+  color: var(--primary-dark);
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.product__location{
+  color: rgb(1, 70, 1);
+  display: flex;
+  margin: 0.7rem 0;
+}
+
+.product__location > svg{
+  width: 17px;
+  margin-right: 10px;
+}
+
+.product__location > p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.product__info{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.product__info > div{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 0.5rem;
+}
+
+.product__info > div > p:last-child{
+  background-color: var(--primary-bg-light);
+  color: var(--primary-dark);
+  font-size: 12px;
+  padding: 4px 7px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.product__container > div > a{
+  width: 90%;
+  margin: 1rem 0;
+}
+
