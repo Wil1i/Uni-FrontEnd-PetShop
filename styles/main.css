@@ -23,6 +23,7 @@ svg{
 a{
   color: var(--primary);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn{
@@ -33,6 +34,12 @@ a{
   align-items: center;
   padding: 0.7rem;
   transition: all .2s ease-in-out;
+  float: left;
+}
+
+.btn-bg{
+  background-color: var(--primary);
+  color: white;
 }
 
 .btn > svg:not(:last-child){
@@ -42,6 +49,11 @@ a{
 .btn:hover{
   background-color: var(--primary);
   color: white;
+}
+
+.btn-bg:hover{
+  background-color: transparent;
+  color: var(--primary);
 }
 
 .header__center > a{

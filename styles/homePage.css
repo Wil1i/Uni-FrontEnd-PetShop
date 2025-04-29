@@ -1,0 +1,41 @@
+.landing__container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landing__left{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__left > *{
+  margin-bottom: 20px;
+}
+
+.landing__left h1{
+  width: 100%;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.landing__left pre{
+  text-wrap: balance;
+  font-size: 18px;
+}
+
+.landing__left a{
+  width: 200px;
+  border-radius: 7px;
+}
+
+.landing__left_btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
