@@ -47,11 +47,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 7rem 0;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
 }
 
 .products__container > a{
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .products__container > div{
@@ -235,4 +236,71 @@
 .news__button > a{
   border-radius: 7px;
   padding: 15px 20px;
+}
+
+.peaceful__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.peaceful__container > div:first-child{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.peaceful__container > div:first-child > h2{
+  font-weight: 400;
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 1rem;
+}
+
+.peaceful__container > div:first-child > h3{
+  font-weight: 400;
+  color : rgb(0, 56, 0);
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.peaceful__container > div:first-child > img{
+  width: 600px;
+}
+
+.peaceful__container > div:last-child{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.peaceful__container > div:last-child > div{
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  width: 278px;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.peaceful__container > div:last-child > div > img{
+  width: 60px;
+}
+
+.peaceful__container > div:last-child > div > div{
+  color: #0A453A;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.peaceful__container > div:last-child > div > p{
+  line-height: 25px;
 }
