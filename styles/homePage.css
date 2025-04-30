@@ -31,7 +31,6 @@
 
 .landing__left a{
   width: 200px;
-  border-radius: 7px;
 }
 
 .landing__left_btn{
@@ -234,7 +233,6 @@
 }
 
 .news__button > a{
-  border-radius: 7px;
   padding: 15px 20px;
 }
 
@@ -303,4 +301,89 @@
 
 .peaceful__container > div:last-child > div > p{
   line-height: 25px;
+}
+
+.comments__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.comments__container > h1{
+  font-weight: 400;
+}
+
+.comments__container > h1 > p{
+  color: #0A453A;
+  float: right;
+  margin-left: 10px;
+}
+
+.comments__box{
+  margin-top: 6rem;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.comment__box{
+  background-color: #F9F9F9;
+  border-radius: 15px;
+  width: 280px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  line-height: 20px;
+}
+
+.comment__box > img{
+  position: absolute;
+  top: -55px;
+}
+
+.comment__box > div > svg{
+  color: var(--primary);
+  width: 15px;
+  margin-top: 2.8rem;
+}
+
+.comment__box > p:not(:last-child){
+  color: var(--primary);
+  font-weight: 500;
+  margin: 0.7rem 0;
+  font-size: 18px;
+}
+
+.comment__box > p:last-child{
+  font-size: 14px;
+  overflow: hidden;
+  text-align: center;
+  height: 80px;
+  text-wrap: balance;
+}
+
+.arrow{
+  position: absolute;
+  width: 40px;
+  z-index: 100;
+  top: 70px;
+  color: #606060;
+  cursor: pointer;
+}
+
+#arrow_left{
+  left: 10px;
+}
+
+#arrow_right{
+  right: 10px;
+}
+
+.comments__container > a{
+  margin-top: 2rem;
 }
